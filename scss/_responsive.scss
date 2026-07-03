@@ -234,6 +234,9 @@
     }
 
     // --------------------------------------------------------------------detail
+    #explus-editor figure[view=default]:not([sum]) img {
+        min-width: 100% !important;
+    }
     .detail-primary {
         padding-top: 20px;
 

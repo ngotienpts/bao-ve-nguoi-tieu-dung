@@ -570,9 +570,18 @@
     &__top {
         .left {
             border-right: 1px solid #e5e5e5;
+            max-width: calc(100% - 380px);
+            width: 100%;
         }
         .right {
             width: 380px;
+        }
+
+        &-slide {
+            .swiper-button-next, .swiper-rtl .swiper-button-prev,
+            .swiper-button-prev, .swiper-rtl .swiper-button-next {
+                top: 35%;
+            }
         }
     }
 }

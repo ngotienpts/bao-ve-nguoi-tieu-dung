@@ -2975,9 +2975,15 @@ p {
 
 .section-primary__top .left {
   border-right: 1px solid #e5e5e5;
+  max-width: calc(100% - 380px);
+  width: 100%;
 }
 .section-primary__top .right {
   width: 380px;
+}
+.section-primary__top-slide .swiper-button-next, .section-primary__top-slide .swiper-rtl .swiper-button-prev,
+.section-primary__top-slide .swiper-button-prev, .section-primary__top-slide .swiper-rtl .swiper-button-next {
+  top: 35%;
 }
 
 .section-secondary__container {
@@ -4258,6 +4264,9 @@ p {
   }
   .artist-block__content .article .author-secondary .info-text {
     padding: 12px 0 0;
+  }
+  #explus-editor figure[view=default]:not([sum]) img {
+    min-width: 100% !important;
   }
   .detail-primary {
     padding-top: 20px;
