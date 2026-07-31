@@ -188,6 +188,9 @@ p {
 .w-90px {
     width: 90px;
 }
+.w-180px {
+    width: 180px;
+}
 /*=================================================================*/
 .d-3xl-none {
     display: none;
@@ -1346,7 +1349,9 @@ p {
 .border-99 {
     border: 1px solid #999;
 }
-
+.border-b-cc {
+    border-bottom: 1px solid #ccc;
+}
 
 /*=================================================================*/
 .round-3xl-6 {
@@ -1355,7 +1360,13 @@ p {
 .round-3xl-10 {
     border-radius: 10px;
 }
-
+.round-999 {
+    border-radius: 999px;
+    -webkit-border-radius: 999px;
+    -moz-border-radius: 999px;
+    -ms-border-radius: 999px;
+    -o-border-radius: 999px;
+}
 /*=================================================================*/
 
 .slider-auto {

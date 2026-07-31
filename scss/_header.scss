@@ -753,14 +753,14 @@
         color: #b80000;
         // font-size: 13px;
         font-weight: bold;
-        &::before {
-          content: '\2023';
-          font-size: 24px;
-          color: #000;
-          right: -20px;
-          line-height: 1;
+        // &::before {
+        //   content: '\2023';
+        //   font-size: 24px;
+        //   color: #000;
+        //   right: -20px;
+        //   line-height: 1;
 
-        }
+        // }
       }
       &:last-child {
         margin-right: 10px;
