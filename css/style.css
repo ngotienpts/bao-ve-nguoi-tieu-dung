@@ -1870,9 +1870,7 @@ p {
   z-index: 999;
 }
 .header.sticky .header-desk-menu,
-.header.sticky .header-mb-bot,
-.header.sticky .header-desk-top--special,
-.header.sticky .header-mb--special {
+.header.sticky .header-mb {
   position: fixed;
   top: 0;
   left: 0;

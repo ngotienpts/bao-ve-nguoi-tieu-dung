@@ -49,9 +49,7 @@
    z-index: 999;
     &.sticky {
         .header-desk-menu,
-        .header-mb-bot,
-        .header-desk-top--special,
-        .header-mb--special {
+        .header-mb {
             position: fixed;
             top: 0;
             left: 0;
