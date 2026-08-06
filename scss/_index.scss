@@ -50,8 +50,8 @@
     }
 }
 .ads-fixed {
-    position: fixed;
-    top: 50%;
+    position: absolute;
+    top: 5%;
     left: 10px;
     right: auto;
     transform: translateY(-50%);
@@ -63,6 +63,11 @@
     &--right {
         left: auto;
         right: 10px;
+    }
+
+    &.sticky {
+        position: fixed;
+        top: 50%;
     }
 }
 .video_home {

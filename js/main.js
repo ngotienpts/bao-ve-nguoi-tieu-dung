@@ -432,7 +432,17 @@ document.addEventListener("DOMContentLoaded", function () {
         const stickyHeaderPC = document.querySelector(".js__stickyHeader");
         if (stickyHeaderPC) {
             stickyHeaderPC.classList.toggle("sticky", window.scrollY > 300);
+            
         }
+    }
+    function handleStickyAds() {
+        const stickyAds = document.querySelectorAll(".js__stickyAds");
+        if (stickyAds === 0) return;
+
+        stickyAds.forEach((item)=>{
+            item.classList.toggle("sticky", window.scrollY > 400);
+        })
+        
     }
 
     function handleBackTop() {
@@ -451,6 +461,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     function handleWindowScroll() {
         handleStickyHeader();
+        handleStickyAds();
         handleBackTopVisibility();
     }
 
